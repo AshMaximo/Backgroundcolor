@@ -1,0 +1,112 @@
+div#negra{
+background-color: black;
+height: 300px;
+width: 300px;
+border: dashed red 5px;
+margin-bottom: 30px;
+}
+div#beige{
+    height: 300px;
+    width: 300px;
+    border: dashed red 5px;
+    margin-bottom: 30px; 
+}
+#beige{
+    background-image: url(puesta-sol.jpg);
+    border-top: dashed black 5px;
+}
+div#double{
+    height: 300px;
+    width: 300px;
+    border: dashed red 5px;
+    margin-bottom: 30px;   
+}
+#double{
+    background-image: url(puesta-sol.jpg);
+    background-size: 300px;
+}
+div#arriba{
+    height: 300px;
+    width: 300px;
+    border: dashed red 5px;
+    margin-bottom: 30px;   
+}
+#arriba{
+    background-image: url(puesta-sol.jpg);
+    background-size: 100px ;
+    background-repeat: no-repeat;
+}
+div#abajo{
+    height: 300px;
+    width: 300px;
+    border: dashed red 5px;
+    margin-bottom: 30px; 
+}
+#abajo{
+    background-color: aqua;
+    background-image: url(puesta-sol.jpg);
+    background-size: 100px ;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+div#margen1{
+    height: 300px;
+    width: 300px;
+    border: dashed red 5px;
+    margin-bottom: 30px;  
+
+}
+#margen1{
+    background-image: url(puesta-sol.jpg);
+    background-size: 600px ;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    padding: 1em;
+}
+div#margen2{
+    height: 300px;
+    width: 300px;
+    border: dashed red 5px;
+    margin-bottom: 30px;  
+}
+#margen2{
+    background-color: aqua;
+    background-image: url(puesta-sol.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-origin:content-box;
+    padding: 1em;
+}
+div#desplazar{
+    height: 300px;
+    width: auto;
+    border: dashed red 5px;
+    margin-bottom: 30px;  
+}
+#desplazar{
+    background-image: url(puesta-sol.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+div#botella{
+    height: 30vh;
+    width: 50vw;
+    border: dashed red 5px;
+    margin-bottom: 30px;  
+
+}
+#botella{
+    background-repeat: repeat-x, no-repeat;
+    background-size: 10%,100%;
+    background-image: url(favicon.png) ,url(puesta-sol.jpg)
+    
+}
+div#imagenes{
+    background-image: url(arbol.png),url(aves.png),url(cielo.png);
+    width: 1000px;
+    height: 700px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: dashed red 5px;
+    background-position: bottom, bottom, top;
+}
